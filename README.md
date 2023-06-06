@@ -9,8 +9,8 @@ They are seen in a camera overlay canvas from the main camera during the game, s
 ----Use: In ANY script in this scene, you can either type out all of this: GameObject.FindWithTag("Error").GetComponent<LogErrorScr>().LogError(str, errorType);
 	or instead use this: LogErrorScr.LogErrorStatic(str, errorType)
 	
-	Where "str" is the string you want to be displayed as an error
-	and "errorType" is its color: 0 = red, 1 = yellow, and 2 = gray
+Where "str" is the string you want to be displayed as an error
+and "errorType" is its color: 0 = red, 1 = yellow, and 2 = gray
 	
 	
 ----Setup: 
